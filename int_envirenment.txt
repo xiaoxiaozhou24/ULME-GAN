@@ -1,0 +1,8 @@
+please enter followed command:
+1.conda create --name ULME-GAN python=3.7
+2.activate ULME-GAN
+(if you need train please download cuda and cudann by yourself,and follow 3.1,else follow 3.2)
+3.1 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+3.2 conda install pytorch torchvision torchaudio cpuonly -c pytorch
+4.pip install -r requirements.txt
+you can run our ULME-GAN to use now!
