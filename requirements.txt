@@ -1,0 +1,9 @@
+python
+torch
+torchvision
+numpy
+pillow
+opencv	
+visdom
+imageio
+pandas

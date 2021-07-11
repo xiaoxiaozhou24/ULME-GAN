@@ -1,0 +1,3 @@
+Input:test/casme2_Negative_asianFemale\imgs\crop_img039.jpg
+Input full path:J:\ganimation_replicate-master1\test\casme2_Negative_asianFemale\imgs\crop_img039.jpg
+Camera parameters:116.667,116.667,64,64

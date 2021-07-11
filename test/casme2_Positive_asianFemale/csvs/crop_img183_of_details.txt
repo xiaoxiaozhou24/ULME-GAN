@@ -1,0 +1,10 @@
+Input:test\casme2_Positive_asianFemale\imgs\crop_img183.jpg
+Input full path:J:\ganimation_replicate-master1\test\casme2_Positive_asianFemale\imgs\crop_img183.jpg
+Camera parameters:116.667,116.667,64,64
+Output csv:crop_img183.csv
+Gaze: 0
+AUs: 1
+Landmarks 2D: 0
+Landmarks 3D: 0
+Pose: 0
+Shape parameters: 0
