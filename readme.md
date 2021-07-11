@@ -18,15 +18,15 @@ Our generation has achieved good results.
 The results of MEGC2021 in ../MEGC2021_results and The more results(no_recode,just_AU_recode,recode_apex_frame and expert_opinion) in [Google Drive](https://drive.google.com/drive/folders/1ZAJsFgZ5LG0Fy26DkOZNf0ZaoIKAq7aa?usp=sharing) or [BaiduNetdisk](https://pan.baidu.com/s/1hi0dyAWvedCgxy5tZm0erA)(Code:72xv)
 The following gifs is the result of paper,for the convenience of display, these gifs here is Compressed and not 100 frames per second,a.gif is the result without AU matrix re-encoded,b.gif is the result just after AU matrix re-encoded and c.gif is the result after Au matrix re-encoded and linear-fitting.
 
-![image](results/none.gif)
-![image](results/recode.gif)
-![image](results/recode-linear.gif)
+![image](gifs/none.gif)
+![image](gifs/recode.gif)
+![image](gifs/recode-linear.gif)
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;a.gif&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;b.gif&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;c.gif
 
 Our generaters consists of two parts：Attention mask generator and Color intensity extraction.We show A and C in the figure below.
-![image](results/A_and_C.jpg)
+![image](gifs/A_and_C.jpg)
 We can also generate consistent images on the template face according to the input Au matrix or image of any state.
-![image](results/AU_matrix.jpg)
+![image](gifs/AU_matrix.jpg)
 
 ## reproduce
 Note: Windows system only
@@ -73,7 +73,7 @@ python main.py --mode test --data_root [data_path] --batch_size [num] --max_data
 #if you want get a MEGC2021 Micro Expression Generation result,please enter the followed command
 # e.g. python main.py --mode test --data_root test/casme2_Negative_asianFemale --batch_size 128 --max_dataset_size 9999 --gpu_ids -1 --ckpt_dir ckpts\ULMEGAN\210619_212934/ --load_epoch 40 --serial_batches --n_threads 0 --linear_fitting --pre_treatment --re_code --save_video
 #if you want get all MEGC2021 Micro Expression Generation results,please enter the followed command
-# e.g. python for_megc2021
+# e.g. python for_megc2021.py
 The output file will be written into results folder.
 ```
 To finetune
