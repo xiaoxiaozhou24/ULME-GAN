@@ -33,7 +33,7 @@ We can also generate consistent images on the template face according to the inp
 ![image](gifs/AU_matrix.jpg)
 
 ## reproduce
-Note: Windows system only
+Note: Windows system only now!
 
 ### Required Package:
     python	3.7.6
@@ -49,6 +49,7 @@ Note: Windows system only
 you can Install requirements.txt (pip install -r requirements.txt) to install the above Package
 ### Data Preparation
 The code requires a directory containing the following files:
+
 To train:
 - `imgs/`: folder with all training image
 
@@ -68,6 +69,7 @@ python main.py --data_root [data_path] --gpu_ids [-1,0,1,2...] --visdom_display_
 # e.g. python main.py --data_root datasets\train_data --gpu_ids 0 --sample_img_freq 500 --pre_treatment --visdom_display_id 0
 ```
 To test
+
 our model,coding tools and trained model all in [Google Drive](https://drive.google.com/file/d/16nc7c7JFoEVZ6EEqeYdXyMszP5-sBx-4/view?usp=sharing) or [BaiduNetdisk](https://pan.baidu.com/s/12EUNgbIoNCNLG96C1lsX4g)(Code:vtw2),after decompression, put ckpts and openface directly into the directory of ULME-GAN
 ```
 python main.py --mode test --data_root [data_path] --batch_size [num] --max_dataset_size [max_num]
