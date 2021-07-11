@@ -45,6 +45,7 @@ Note: Windows system only
     visdom   0.1.8.9(Optional,just train)
     pandas   1.0.4
     tqdm      4.42.1
+(If you want use it in creating a new envirenment,you should follow init_envirenment.txt)     
 you can Install requirements.txt (pip install -r requirements.txt) to install the above Package
 ### Data Preparation
 The code requires a directory containing the following files:
