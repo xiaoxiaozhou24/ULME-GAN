@@ -1,9 +1,3 @@
-python
-torch
-torchvision
-numpy
-pillow
-opencv	
-visdom
-imageio
+tqdm
+opencv-python
 pandas
