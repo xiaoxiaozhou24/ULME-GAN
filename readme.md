@@ -17,6 +17,7 @@ For details, please refer to the above paper. The follwing briefly summarize our
 Our generation has achieved good results.
 The results of MEGC2021 in ../MEGC2021_results and The more results(no_recode,just_AU_recode,recode_apex_frame and expert_opinion) in [Google Drive](https://drive.google.com/drive/folders/1ZAJsFgZ5LG0Fy26DkOZNf0ZaoIKAq7aa?usp=sharing) or [BaiduNetdisk](https://pan.baidu.com/s/1hi0dyAWvedCgxy5tZm0erA)(Code:72xv)
 The following gifs is the result of paper,for the convenience of display, these gifs here is Compressed and not 100 frames per second,a.gif is the result without AU matrix re-encoded,b.gif is the result just after AU matrix re-encoded and c.gif is the result after Au matrix re-encoded and linear-fitting.
+
 ![image](results/none.gif)
 ![image](results/recode.gif)
 ![image](results/recode-linear.gif)
