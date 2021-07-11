@@ -21,6 +21,7 @@ The following gifs is the result of paper,for the convenience of display,a.gif i
 ![image](gifs/no_re_encode.gif)
 ![image](gifs/re_encode.gif)
 ![image](gifs/re_encode-linear_fitting.gif)
+
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;a.gif&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;b.gif&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;c.gif
 
 Our generaters consists of two parts：Attention mask generator and Color intensity extraction.We show A and C in the figure below.
