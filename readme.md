@@ -58,7 +58,7 @@ To test:
 - `imgs2/`: folder with the target image
 
 When you have a au tense table The following are needed
-- `aus_openface.pkl`: it's every line contains filename,AU1,AU2,AU4,AU5,AU6,AU7,AU9,AU10,AU12,AU14,AU15,AU17,AU20,AU23,AU25,AU26 and AU45
+- `aus_openface.pkl`: it's every line contains filename,thetense of AU1,AU2,AU4,AU5,AU6,AU7,AU9,AU10,AU12,AU14,AU15,AU17,AU20,AU23,AU25,AU26 and AU45
 - `test_ids.csv`: each line is the image file name, including the expression and template face
 
 
@@ -76,7 +76,7 @@ python main.py --mode test --data_root [data_path] --batch_size [num] --max_data
    --gpu_ids [-1,0,1,2...] --ckpt_dir [ckpt_dir] --load_epoch [num] [--serial_batches] --n_threads [num] [--linear_fitting|--apex_frame] [--pre_treatment] [--re_code] [--save_video]
 #if you have AU tense table ,please enter the followed command
 # e.g. python main.py --mode test --data_root test/casme2_Negative_asianFemale --batch_size 128 --max_dataset_size 9999 --gpu_ids -1 --ckpt_dir ckpts\ULMEGAN\210619_212934/ --load_epoch 40 --n_threads 0  --save_video
-#if you want get a MEGC2021 Micro Expression Generation result,please enter the followed command
+#if you want get a MEGC2021 Micro Expression Generation result,please enter the followed command(you can delete all *.csv and *pkl initially,them will be regenerate after our program runs)
 # e.g. python main.py --mode test --data_root test/casme2_Negative_asianFemale --batch_size 128 --max_dataset_size 9999 --gpu_ids -1 --ckpt_dir ckpts\ULMEGAN\210619_212934/ --load_epoch 40 --serial_batches --n_threads 0 --linear_fitting --pre_treatment --re_code --save_video
 #if you want get all MEGC2021 Micro Expression Generation results,please enter the followed command
 # e.g. python for_megc2021.py
