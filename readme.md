@@ -66,7 +66,7 @@ When you have a au tense table The following are needed(the format you can refer
 To train
 ```
 python main.py --data_root [data_path] --gpu_ids [-1,0,1,2...] --visdom_display_id [0,1]
-# e.g. python main.py --data_root datasets\train_data --gpu_ids 0 --sample_img_freq 500 --pre_treatment --visdom_display_id 0
+# e.g. python main.py --data_root datasets\train_data --gpu_ids 0 --sample_img_freq 500 --pre_treatment
 ```
 To test
 
