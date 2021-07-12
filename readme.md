@@ -50,7 +50,7 @@ you can Install requirements.txt (pip install -r requirements.txt) to install th
 ### Data Preparation
 The code requires a directory containing the following files:
 
-To train:
+To train(all images size must be consistent):
 - `imgs/`: folder with all training image
 
 To test:
