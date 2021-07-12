@@ -85,5 +85,5 @@ The output file will be written into results folder.
 To finetune
 ```
 python main.py --data_root [data_path] --gpu_ids [-1,0,1,2...] --ckpt_dir [ckpt_dir] --load_epoch [num] --epoch_count [num] --niter [num] --niter_decay [num]
-# e.g. python main.py --data_root weitiao --gpu_ids 0 --sample_img_freq 300 --n_threads 0 --ckpt_dir ckpts\ULMEGAN\210619_212934 --load_epoch 40 --epoch_count 41 --niter 40 --niter_decay 10
+# e.g. python main.py --data_root weitiao --gpu_ids 0 --sample_img_freq 300 --n_threads 0 --ckpt_dir ckpts\ULMEGAN\210619_212934 --load_epoch 40 --epoch_count 41 --niter 40 --niter_decay 10 --pre_treatment
 ```
