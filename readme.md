@@ -57,8 +57,8 @@ To test:
 - `imgs/`: folder with the source expression image
 - `imgs2/`: folder with the target image
 
-When you have a au tense table The following are needed
-- `aus_openface.pkl`: it's every line contains filename,thetense of AU1,AU2,AU4,AU5,AU6,AU7,AU9,AU10,AU12,AU14,AU15,AU17,AU20,AU23,AU25,AU26 and AU45
+When you have a au tense table The following are needed(the format you can refer to ../test/casme2_Negative_asianFemale)
+- `aus_openface.pkl`: it's every line contains filename,the tense of AU1,AU2,AU4,AU5,AU6,AU7,AU9,AU10,AU12,AU14,AU15,AU17,AU20,AU23,AU25,AU26 and AU45
 - `test_ids.csv`: each line is the image file name, including the expression and template face
 
 
