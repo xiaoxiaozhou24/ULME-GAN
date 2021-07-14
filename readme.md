@@ -14,6 +14,15 @@ For details, please refer to the above paper. The follwing briefly summarize our
 - 5.The input target expression can be the AU matrix or face image of any expression state 
 
 ## Results
+
+Our generaters consists of two parts：Attention mask generator and Color intensity extraction.We show A and C in the figure below.
+
+![image](gifs/A_and_C.jpg)
+
+We can also generate consistent images on the template face according to the input Au matrix or image of any state.
+
+![image](gifs/AU_matrix.jpg)
+
 Our generation has achieved good results.
 The results of MEGC2021 in ../MEGC2021_results and The more results(no_recode,just_AU_recode,recode_apex_frame and expert_opinion) in [Google Drive](https://drive.google.com/drive/folders/1ZAJsFgZ5LG0Fy26DkOZNf0ZaoIKAq7aa?usp=sharing) or [BaiduNetdisk](https://pan.baidu.com/s/1hi0dyAWvedCgxy5tZm0erA)(Code:72xv)
 The following gifs is the result of paper,for the convenience of display,a.gif is the result without AU matrix re-encoded,b.gif is the result just after AU matrix re-encoded and c.gif is the result after Au matrix re-encoded and linear-fitting.
@@ -24,13 +33,6 @@ The following gifs is the result of paper,for the convenience of display,a.gif i
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;a.gif&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;b.gif&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;c.gif
 
-Our generaters consists of two parts：Attention mask generator and Color intensity extraction.We show A and C in the figure below.
-
-![image](gifs/A_and_C.jpg)
-
-We can also generate consistent images on the template face according to the input Au matrix or image of any state.
-
-![image](gifs/AU_matrix.jpg)
 
 ## reproduce
 Note: Windows system only now!
