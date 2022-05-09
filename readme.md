@@ -1,6 +1,4 @@
-# Micro Expression Generation for MEGC2021
-
-This project is for Facial Micro-Expression (FME) Workshop and Challenge 2021 - Facial micro-expression generation task.Link:[MEGC2021](https://megc2021.github.io/index.html)
+# ULME-GAN
 
 ## Citation
 If you find this work useful for your research,please cite our paper:
