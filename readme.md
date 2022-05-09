@@ -16,9 +16,7 @@ For details, please refer to the above paper. The follwing briefly summarize our
 Our generaters consists of two parts：Attention mask generator and Color intensity extraction.We show A and C in the figure below.
 
 ![image](gifs/A_and_C.jpg)
-
 We can also generate consistent images on the template face according to the input Au matrix or image of any state.
-
 ![image](gifs/AU_matrix.jpg)
 
 Our generation has achieved good results.
@@ -76,6 +74,8 @@ python main.py --mode test --data_root [data_path] --batch_size [num] --max_data
    --gpu_ids [-1,0,1,2...] --ckpt_dir [ckpt_dir] --load_epoch [num] [--serial_batches] --n_threads [num] [--linear_fitting|--apex_frame] [--pre_treatment] [--re_code] [--save_video]
 #if you have AU tense table ,please enter the followed command
 # e.g. python main.py --mode test --data_root test/casme2_Negative_asianFemale --batch_size 128 --max_dataset_size 9999 --gpu_ids -1 --ckpt_dir ckpts\ULMEGAN\210619_212934/ --load_epoch 40 --n_threads 0  --save_video
+#In addition,You can edit demo_for_AU_table_generate.py correctly get the wanted images or videos.(Already embedded with 1.2 times Positive)
+# e.g.python demo_for_Au_Table_generate.py --mode test --data_root test/Au_Table_Positive_asianFemale --batch_size 128 --max_dataset_size 9999 --gpu_ids -1 --ckpt_dir ckpts\210619_212934/ --load_epoch 40 --n_threads 0  --save_video
 #if you want get a MEGC2021 Micro Expression Generation result,please enter the followed command(you can delete all *.csv and *pkl initially,them will be regenerate after our program runs)
 # e.g. python main.py --mode test --data_root test/casme2_Negative_asianFemale --batch_size 128 --max_dataset_size 9999 --gpu_ids -1 --ckpt_dir ckpts\ULMEGAN\210619_212934/ --load_epoch 40 --serial_batches --n_threads 0 --linear_fitting --pre_treatment --re_code --save_video
 #if you want get all MEGC2021 Micro Expression Generation results,please enter the followed command
