@@ -79,7 +79,8 @@ python main.py --mode test --data_root [data_path] --batch_size [num] --max_data
 The output file will be written into results folder.
 ```
 
-To edit Au metrix for Editing emotion
+Specified micro-expression generation
+
 ```
 #if you have AU tense table ,please enter the followed command
 # e.g. python main.py --mode test --data_root test/casme2_Negative_asianFemale --batch_size 128 --max_dataset_size 9999 --gpu_ids -1 --ckpt_dir ckpts\ULMEGAN\210619_212934/ --load_epoch 40 --n_threads 0  --save_video
