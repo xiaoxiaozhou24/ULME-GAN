@@ -1,7 +1,7 @@
 # ULME-GAN
 
 ## Citation
-If you find this work useful for your research,please cite our paper:
+If you find this work useful for your research,please cite our paper: [ULME-GAN: a generative adversarial network for micro-expression sequence generation](https://doi.org/10.1007/s10489-023-05213-z). 
 
 ## Method
 For details, please refer to the above paper. The follwing briefly summarize our work here.
